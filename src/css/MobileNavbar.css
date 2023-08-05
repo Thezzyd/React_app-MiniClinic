@@ -1,0 +1,102 @@
+/*.mobile-header {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: var(--sidebar-color);
+  z-index: 100;
+  transition: var(--tran-03);
+}*/
+
+.mobile-navbar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: var(--sidebar-color);
+  height: 65px;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+}
+
+.mobile-navbar .mobile-nav-menu {
+  transition: var(--tran-03);
+  box-shadow: var(--box-shadow-color) 0px 7px 29px 0px;
+  height: 65px;
+  width: 100%;
+  padding: 0 1%;
+  display: grid;
+  align-content: center;
+  border-radius: 10px;
+}
+
+.mobile-navbar .mobile-nav-menu .mobile-nav-list,
+.mobile-navbar .mobile-nav-menu .mobile-nav-link {
+  display: flex;
+  list-style-type: none;
+}
+
+.mobile-navbar .mobile-nav-menu .mobile-nav-link {
+  flex-direction: column;
+  align-items: center;
+  row-gap: 5px;
+  color: var(--text-color);
+  font-weight: 600;
+  text-decoration: none;
+  min-width: 50px;
+  padding: 5px;
+  border-radius: 6px;
+}
+
+.mobile-navbar .mobile-nav-menu .mobile-nav-link:hover {
+  background-color: var(--primary-color);
+  color: var(--sidebar-color);
+}
+
+body.dark .mobile-navbar .mobile-nav-menu .mobile-nav-link:hover {
+  background-color: var(--primary-color);
+  color: var(--text-color);
+}
+
+.mobile-navbar .mobile-nav-menu .mobile-nav-list {
+  justify-content: space-around;
+}
+
+.mobile-navbar .mobile-nav-menu .mobile-nav-item .mobile-nav-icon {
+  font-size: 23px;
+}
+
+.mobile-navbar .mobile-nav-menu .mobile-nav-item .mobile-nav-link-name {
+  font-size: 12px;
+}
+
+.mobile-navbar .mobile-nav-menu .mobile-nav-item.dark-mode {
+  background: var(--primary-color-alt);
+  border-radius: 6px;
+}
+
+.mobile-navbar .mobile-nav-menu .mobile-nav-item .mobile-nav-icon.moon {
+  display: flex;
+}
+
+.mobile-navbar .mobile-nav-menu .mobile-nav-item .mobile-nav-icon.sun {
+  display: none;
+}
+
+body.dark
+  .mobile-navbar
+  .mobile-nav-menu
+  .mobile-nav-item
+  .mobile-nav-icon.sun {
+  display: flex;
+}
+
+body.dark
+  .mobile-navbar
+  .mobile-nav-menu
+  .mobile-nav-item
+  .mobile-nav-icon.moon {
+  display: none;
+}

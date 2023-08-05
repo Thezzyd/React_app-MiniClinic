@@ -1,0 +1,49 @@
+.footer {
+  margin-top: 0px;
+  position: relative;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  color: var(--text-color);
+  background: var(--sidebar-color);
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 20px;
+  box-shadow: var(--box-shadow-color) 0px 7px 29px 0px;
+    flex-shrink: 0;
+}
+
+.footer-column {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+
+  margin: 20px 0px;
+  min-width: 300px;
+}
+.clinic-text h2 {
+  font-weight: 400;
+}
+.clinic-text {
+  color: var(--clinic-color);
+}
+
+.footer-column img {
+  max-width: 200px;
+  height: auto;
+}
+
+.footer-link{
+  transition: var(--tran-03);
+}
+.footer-link:hover{
+  color: var(--text-color);
+  transform: scale(1.4);
+  transition: var(--tran-03);
+}
+

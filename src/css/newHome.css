@@ -1,0 +1,339 @@
+.over-slide-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-weight: bold;
+    font-size: 38px;
+}
+.slide.first{
+    position: relative;
+}
+
+.card4-item-box-text-position-services.active{
+    background-color: var(--clinic-color);
+    color: white;
+    transition: var(--tran-03);
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.homeSectionCard{
+    width: 100%;
+    color: var(--text-color);
+    padding: 0 0;
+}
+.home-contact-section-cards{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.separator-line,
+.separator-line-simple {
+    width: 100%;
+    overflow: visible; /* For IE */
+    padding: 0;
+    border: none;
+    border-top: medium double var(--text-color);
+    color: var(--text-color);
+    text-align: center;
+     margin-bottom: 0px;
+     margin-top: 15px;
+    transition: var(--tran-03);
+}
+.separator-line-simple {
+    margin-bottom: 20px;
+}
+.separator-line:after {
+    content: "§";
+    display: inline-block;
+    position: relative;
+    bottom: 0.9em;
+  
+    font-size: 1.5em;
+    padding: 0 0.25em;
+    background: var(--body-color);
+    transition: var(--tran-03);
+}
+.homeSectionCard-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    margin-bottom: 20px;;
+}
+.homeSectionCard-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.homeSectionCard-content-img_text{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.homeSectionCard-content-img{
+    max-width:100%;
+    border-radius: 6px;
+    height: auto;
+}
+.homeSectionCard-content-text{
+    font-display: optional;
+    padding-left: 20px;
+  
+    width: 65%;
+  /*  font-size: 18px;*/
+}
+.homeSectionCard-content-img-container{
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.homeSectionCard h2{
+    padding: 0px 0;
+    margin-top: 40px;
+}
+.homeSectionCard-content-only_text{
+    padding: 20px 0;
+
+}
+.homeSectionCard-content-check-list-parent{
+    display: flex;
+    flex-direction: column;
+}
+.homeSectionCard-content-check-list-child{
+    padding: 2px 0;
+}
+.google-map{
+    width: 100%;
+    height: 400px;
+    
+}
+
+.special-about-section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    margin-top: 30px;
+}
+.special-about-section-title{
+    margin: 10px 0;
+    margin-top: 40px;
+ margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    color: var(--text-color);
+    text-align: center;
+}
+.special-about-section-title h3{
+   /* font-weight: 300;*/
+}
+.special-about-section-elements-parent{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-basis: auto;
+    width: 100%;
+}
+.special-about-section-element{
+    margin: 10px 1%;
+    width: 30%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    min-width: 260px;
+    align-items: center;
+    color: white;
+    background: var(--card-color);
+    border-radius: 6px;
+    cursor: pointer;
+    transition: var(--tran-03);
+    position: relative;
+}
+.special-about-section-element:hover{
+    transform: scale(1.05);
+    transition: var(--tran-03);
+    box-shadow: var(--card-color) 0px 7px 29px 0px;
+}
+.bxs-star{
+    font-size: 25px;
+    margin: 5px 0;
+    color: white;
+}
+
+.small-star{
+    font-size: 16px;
+}
+.separator-line-simple-with-margin{
+    width: 100%;
+    overflow: visible; /* For IE */
+    padding: 0;
+    border: none;
+    border-top: medium double var(--text-color);
+    color: var(--text-color);
+    text-align: center;
+     margin-bottom: 0px;
+     margin-top: 35px;
+    transition: var(--tran-03);
+}
+.special-section-arrow{
+    font-size: 24px;
+    position: relative;
+    bottom: -5px;
+}
+.special-about-section-element-link{
+    display: flex;
+    flex-direction: row;
+    color: white;
+}
+.arrow-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 10px;
+   
+}
+.home-speciality-text{
+   
+}
+.click-for-more-text{
+    font-size: small;
+    margin-top: 5px;
+    color: white;
+}
+
+.thin-h2{
+    margin: 20px 0;
+    margin-bottom: -10px;
+    font-weight: 300;
+}
+.bold-text{
+    font-weight: bold;
+}
+.in-list-text{
+    color: var(--clinic-color);
+    font-weight: 600;
+}
+.specialpage-wide-image-parent{
+    width: 100%;
+}
+.specialpage-wide-image{
+    width: 100%;
+}
+
+.star-container{
+    margin-bottom: -15px;
+}
+.googleMapWrapper{
+    min-width: 100%;
+   
+    height: 400px;
+}
+
+.info-card-new-parent{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+  
+ 
+}
+
+.info-card-new{
+    position: relative;
+    background: var(--card-color);
+    width: auto;
+    color: white;
+    border-radius: 6px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    cursor: pointer;
+    transition: var(--tran-03);
+}
+.info-card-new:hover{
+    transform: scale(1.05);
+    transition: var(--tran-03);
+    box-shadow: var(--card-color) 0px 7px 29px 0px;
+}
+
+.info-card-new2{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+}
+
+.star-container2{
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.link-to-div-home{
+    width: 100%;
+    margin: 20px 1%;
+    margin-bottom: 30px;
+}
+/*.special-about-section-element{
+    margin: 20px 1%;
+    width: 30%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    min-width: 260px;
+    align-items: center;
+    color: white;
+    background: var(--card-color);
+    border-radius: 6px;
+    cursor: pointer;
+    transition: var(--tran-03);
+}
+.special-about-section-element:hover{
+    transform: scale(1.05);
+    transition: var(--tran-03);
+    box-shadow: var(--card-color) 0px 7px 29px 0px;
+}*/
+
+.click-on-div-icon-try{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    height: 40px;
+    top: 0;
+    left: 0;
+    background: var(--body-color);
+    border-radius: 4px 0px 40px 0px;
+    transition: var(--tran-03);
+}
+
+.hand-click-icon{
+    font-size: 25px;
+    transform: scaleX(-1);
+    color: var(--card-color);
+    margin-left: -5px;
+    margin-top: -5px;
+}

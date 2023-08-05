@@ -1,0 +1,26 @@
+{
+  "short_name": "Mini Clinic",
+  "name": "Mini Clinic | Leczenie chrapania Rzeszów",
+  "description": "Zapraszamy do MiniClinic! Oferujemy szereg zabiegów z zakresu laryngologii wykonywanych przez doświadczonych profesjonalistów.",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "32x32",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "logo200.webp",
+      "type": "image/webp",
+      "sizes": "200x200"
+    },
+    {
+      "src": "logo512.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

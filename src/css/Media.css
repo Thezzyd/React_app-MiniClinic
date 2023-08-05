@@ -1,0 +1,270 @@
+@media only screen and (max-width: 1600px) {
+ 
+  .home-page-info-card2,
+  .home-page-info-card {
+    width: 40%;
+  }
+
+
+  .home-page-info-card3
+   {
+    width: 30%;
+    flex-direction: column;
+    max-width:500px;
+    justify-content: normal;
+  }
+
+  .home-page-info-card3-parent{
+   
+    justify-content: space-between;
+  
+  }
+  .icon-img2 {
+    width:100%;
+    border-radius: 6px 6px 0 0;
+  }   
+  .icon-img-container3.mirror.mobile {
+    display: flex;
+  }
+  .icon-img-container3.mirror.normal {
+    display: none;
+  }
+
+  .icon-img-container3.mirror,
+  .icon-img2.mirror {
+  border-radius: 6px 6px 0 0;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .home-page-info-card3-parent{
+   
+    justify-content: space-around;
+  
+  }
+  .home-page-info-card3
+  {
+   width: 40%;
+   flex-direction: column;
+   max-width:500px;
+   justify-content: normal;
+ }
+ .consultationBody-content-only_text-doubled-parent{
+  flex-wrap: wrap;
+ }
+}
+
+
+@media only screen and (max-width: 1300px) {
+  .home-page-info-card2
+   {
+    width: 60%;
+  }
+
+  .home-page-info-card3{
+    width: 100%;
+  }
+
+  .surgeries-box-item{
+    width: 40%;
+  }
+
+  .homeSectionCard-content-img_text{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .homeSectionCard-content-text{
+    padding-left: 0px;
+    padding-top: 20px;
+    width: 100%;
+  }
+
+  .homeSectionCard-content-img-container{
+    width: 100%;
+  }
+  .consultationBody-content-img-container-to-left{
+    width: 100%;
+  }
+  .consultationBody-content-text-to-left{
+    padding-left: 0px;
+  }
+  .consultationBody-content-text-to-left{
+    width: 100%;
+  }
+  .consultationBody-content-img_text{
+    display: flex;
+    flex-direction: column;
+  }
+  /*.consultationBody-content-only_text{
+    padding-bottom: 0px;
+  }*/
+
+  .consultationBody-content-text,
+  .consultationBody-content-text-alt{
+    padding-right: 0px;
+    /*padding-bottom: 20px;*/
+    width: 100%;
+  }
+
+  .consultationBody-content-img-container,
+  .consultationBody-content-img-container-alt{
+    width: 100%;
+  }
+  .consultationBody-content-img-container-alt{
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 1100px){
+  .home-page-info-card{
+    width: 60%;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .home-page-info-card2,
+  .home-page-info-card {
+    width: 90%;
+  }
+  .info-card-new{
+    flex-direction: column;
+  }
+  .star-container2{
+    margin-right: 0px;
+  }
+ .card4-item-box-services{
+  min-width: -webkit-fill-available;
+ }
+ .card4-items-container{
+  flex-direction: column;
+ }
+
+
+}
+
+@media only screen and (max-width: 1478px) {
+  .home-page-title {
+    flex-direction: column;
+  }
+  
+  .info-card-new-parent{
+  flex-wrap: wrap;
+  }
+
+  .link-to-div-home{
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 1320px) {
+  .sidebar.close .home-page-title {
+    flex-direction: column;
+  }
+  .home-page-title h1 {
+    font-size: 26px;
+  }
+  h2 {
+    font-size: 22px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .surgeries-box-item{
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .sidebar.close ~ .parent-page-content {
+    left: 0px;
+    height: 100vh;
+    width: 100%;
+  }
+  .sidebar {
+    display: none;
+  }
+  .parent-page-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+  .mobile-navbar {
+    display: flex;
+  }
+  .home-page-info-card2,
+  .home-page-info-card3,
+  .home-page-info-card {
+    flex-direction: column;
+  }
+  .icon-img-container {
+    width: 100%;
+  }
+  .icon-img {
+    width: 100%;
+    min-width: 100px;
+    max-width: 120px;
+  }
+  .home-page-info-card {
+    text-align: center;
+  }
+  .home-page-title h1 {
+    font-size: 21px;
+  }
+  h2 {
+    font-size: 20px;
+  }
+  .content-text{
+    font-size: 16px;
+  }
+
+  .icon-img-container,
+  .icon-img-container3 {
+    border-radius: 6px 6px 0 0;
+  }
+
+  span.neutral-text {
+    font-size: 17px;
+  }
+
+  .footer {
+    padding-bottom: 85px;
+  }
+
+  .bracket-img {
+    margin-top: 10px;
+    margin-bottom: -10px;
+  }
+}
+@media only screen and (max-height: 600px) {
+  .sidebar.close ~ .home {
+    left: 0px;
+    height: 100vh;
+    width: 100%;
+  }
+  .sidebar {
+    display: none;
+  }
+  .parent-page-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+  .mobile-navbar {
+    display: flex;
+  }
+  .footer {
+    padding-bottom: 85px;
+  }
+}
+/*
+@media only screen and (max-width: 550px) {
+ 
+}*/
+/*
+@media only screen and (max-width: 550px) {
+  .home-page-title {
+    font-size: 20px;
+  }
+}
+*/

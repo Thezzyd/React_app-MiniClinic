@@ -1,0 +1,71 @@
+.surgeries-box-parent{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex-basis: auto;
+  justify-content: center;
+  width: 100%;
+  padding: 15px 0;
+ 
+}
+.surgery-link{
+    margin: 20px 15px;
+}
+.surgeries-box-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   height: 100%;
+    border-radius: 6px;
+    min-width: 200px;
+    max-width: 220px;
+   
+    border: 1px solid var(--item-border);
+    transition: var(--tran-03);
+}
+
+.surgeries-box-item:hover,
+.surgeries-box-item.active{
+    transform: scale(1.08);
+    transition: var(--tran-03);
+    cursor: pointer;
+    background-color: var(--clinic-color);
+    color: white;
+    border: 1px solid var(--clinic-color);
+}
+
+.surgeries-box-item-image-holder{
+    
+}
+
+.surgeries-box-item-image{
+    width: 100%;
+    height: auto;
+    border-radius: 6px 6px 0 0;
+}
+
+.surgeries-box-item-title-holder{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 5px 5px;
+   width: 95%;
+}
+
+.surgeries-box-item-title{
+    text-align: left;
+}
+
+.surgeries-box-item-title-icon{
+  
+   margin-bottom: -5px;
+   font-size: 25px;
+}
+.surgeries-box-item-icon-holder{
+width: 15%;
+ margin-right: 5px;
+}
+.surgeries-box-item-text-holder{
+    width: 85%;
+}

@@ -1,0 +1,141 @@
+.over-slide-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-weight: bold;
+    font-size: 38px;
+}
+.slide.first{
+    position: relative;
+}
+
+.card4-item-box-text-position-services.active{
+    background-color: var(--clinic-color);
+    color: white;
+    transition: var(--tran-03);
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.consultationBody{
+    width: 100%;
+    color: var(--text-color);
+   
+}
+
+.consultationBody-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    margin-bottom: 20px;;
+}
+/*.consultationBody-content{
+
+}*/
+.consultationBody-content-img_text{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+   /* margin-top: 50px;*/
+}
+.consultationBody-content-img{
+    width:100%;
+    height: auto;
+    border-radius: 6px;
+}
+.consultationBody-content-text{
+    padding-right: 20px;
+    margin-bottom: 20px;
+    width: 65%;
+}
+.consultationBody-content-text-services{
+    padding-right: 20px;
+    margin-bottom: 20px;
+   
+}
+.consultationBody-content-text-to-left{
+    padding-left: 20px;
+    margin-bottom: 20px;
+    width: 65%;
+}
+.consultationBody-content-text-full{
+   
+    padding-right: 20px;
+    width: 100%;
+}
+.consultationBody-content-img-container{
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.consultationBody-content-img-container-full-width{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.consultationBody-content-img-container-to-left{
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+.consultationBody h2{
+    padding-bottom: 10px;
+
+}
+.consultationBody-content-only_text-doubled-parent{
+    display: flex;
+   
+    width: 100%;
+    
+}
+.consultationBody-content-only_text{
+    padding: 20px 0;
+    min-width:  60%;
+}
+.consultationBody-content-only_text.first{
+   padding-right: 20px;
+    min-width:  40%;
+}
+.consultationBody-content-check-list-parent{
+    display: flex;
+    flex-direction: column;
+}
+.consultationBody-content-check-list-child{
+    padding: 2px 0;
+}
+.consultationBody-content-check-list-child-with-margin{
+    padding: 2px 0;
+    margin-bottom: 10px;
+}
+.h2-margin-top{
+    margin-top: 20px;
+}
+.center-text{
+    text-align: center;
+}
+.consultationBody-content-text-alt{
+    padding-right: 20px;
+    margin-bottom: 20px;
+    width: 50%;
+}
+.consultationBody-content-img-container-alt{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
