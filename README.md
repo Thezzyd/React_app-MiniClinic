@@ -6,7 +6,7 @@ Zaprojektowanie i zaimplementowanie strony internetowej dla małej kliniki laryn
 
 ## Narzędzia i technologie
 * Główny język kodu JavaScript,
-* HTML5,
+* HTML5 + CSS,
 * Biblioteka React,
 * Środowisko programistyczne Visual Studio Code,
 * Przygotowywanie grafik w Adobe Photoshop CC 2019,
